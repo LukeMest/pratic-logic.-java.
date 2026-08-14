@@ -1,7 +1,6 @@
-import java.net.SocketPermission;
 import java.util.Scanner;
 
-public class XP{
+public class XPrascunho{
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 //Moto de gamificação funcionaŕa em 3 etapas sequenciais
@@ -42,6 +41,7 @@ public class XP{
                 atividades_epicas++;
             }
             System.out.println("Deseja registrar mais uma atividade? (1-Sim / 2-Não)");
+            opcao = teclado.nextInt();
         }
 
         System.out.println("---RELATÓRIO DO DIA---");
