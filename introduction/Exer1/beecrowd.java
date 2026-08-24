@@ -94,6 +94,21 @@ public class beecrowd {
             }
         }
         */
+
+        //1099 
+        System.out.println("Digite 2 valores");
+        int a = teclado.nextInt();
+        int b = teclado.nextInt();
+        if (a < b) {
+            while (a <= b) {
+            int aux;
+                if (a % 2 != 0) {
+                    int aux = aux + a;
+                }
+                a = a + 1;
+            }
+        }
+
         teclado.close();
     }
 }   

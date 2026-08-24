@@ -14,7 +14,7 @@ public class loops {
             }
         }
         */
-        /* 
+        
         //Exercício 2 - 1067
         System.out.println("Digite um valor de 1 até 1.000: ");
         int X = teclado.nextInt();
@@ -28,10 +28,7 @@ public class loops {
                     }
                 }
         }
-        */
-
         //1078
-
         System.out.println("Digite um valor inteiro maior que 2 e menor do que 1000 para fazermos a tabuada do 1 até 10 desse respectivo valor: ");
         int n = teclado.nextInt();
 
@@ -40,6 +37,8 @@ public class loops {
         } else {
             for(int tab = 1; tab <= 10; tab++) {
                 int valor = tab * n;
+                
+                //valor deve ser questionado
                 System.out.printf("%d x %d = %d", tab, n, valor);
             }
         }
