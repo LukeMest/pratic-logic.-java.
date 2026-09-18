@@ -14,7 +14,7 @@ public class loops {
             }
         }
         */
-        
+        /
         //Exercício 2 - 1067
         System.out.println("Digite um valor de 1 até 1.000: ");
         int X = teclado.nextInt();
@@ -22,6 +22,7 @@ public class loops {
         if ((X < 1) || (X > 1000)) {
             System.out.println("Valor incorreto, digite novamente um valor de 1 até 1000.");
         } else {
+                
                 for (int numero = 1; numero <= X; numero++) {
                     if (numero % 2 != 0) {
                         System.out.printf("%d\n", numero);
@@ -42,7 +43,7 @@ public class loops {
                 System.out.printf("%d x %d = %d", tab, n, valor);
             }
         }
-
+    */
 
         teclado.close();
 
