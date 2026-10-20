@@ -24,6 +24,7 @@ public class XP{
         while (opcao == 1) {
             System.out.println("Digite o XP da atividade concluída");
             int xpatual = teclado.nextInt();
+            System.out.println("Digite o maior valor possível: ")
 
             xptotal += xpatual;
 

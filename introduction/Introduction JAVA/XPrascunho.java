@@ -17,6 +17,10 @@ public class XPrascunho{
             System.out.println("Acesso Negado! Tente novamente...");
             senha = teclado.nextInt();
         }
+        while (senha != 2026) {
+            System.out.println("Acesso estabelecido com sucesso! ");
+            senha = teclado.nextInt();
+        }
 
         System.out.println("Acesso liberado! Bem-vindo ao seu Tracker de Rotina");
 
@@ -36,6 +40,10 @@ public class XPrascunho{
 
             xptotal += xpatual;
 
+
+
+            totalAtividades++;
+
             totalAtividades++;
 
             if (xpatual > 100) {
@@ -44,6 +52,7 @@ public class XPrascunho{
             System.out.println("Deseja registrar mais uma atividade? (1-Sim / 2-Não)");
             opcao = teclado.nextInt();
         }
+        System.out.println("Relatório-01: dia 0-..");
 
         System.out.println("---RELATÓRIO DO DIA---");
         System.out.println("Atividades concluídas: " + totalAtividades);
